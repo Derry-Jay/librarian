@@ -27,10 +27,6 @@ class _SignUpPageState extends State<SignUpPage> {
 
   @override
   void initState() {
-    twilioFlutter = TwilioFlutter(
-        accountSid: 'ACcf06289be9297bd618e7b827e0a816c7',
-        authToken: '5b812eaca128865541cf5276e1ff37f7',
-        twilioNumber: '+17035968826');
 
     super.initState();
   }
